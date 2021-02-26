@@ -10,4 +10,4 @@ FYV Check for Non-Standard Local Administrators CI.cab - Exported CI, can be imp
 FYV Check for Non-Standard Local Administrators CB.cab - Exported CB, can be imported directly to SCCM
 
 Note to localized version of Windows.
-Get-LocalGroupMember cmdlet returns localized description of group memebers. For example, for Russian version of Windows 10 it return "Пользователь" instead of "User". Code already handles English and Russian version of Windows 10, but if you are using somewhat different, you can either replace "Пользователь" to your localized version or add another ObjectClass check.
+Get-LocalGroupMember cmdlet returns localized description of group memebers. For example, for Russian version of Windows it returns "Пользователь" instead of "User". Code already handles English and Russian version of Windows, but if you are using something different, you can either replace "Пользователь" to your localized version or add another ObjectClass check.
