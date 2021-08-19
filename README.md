@@ -1,5 +1,5 @@
 # sccm-localadmins-ci
-SCCM Configuration Item for Detecting Non-Standard Local Administrators
+ECM (ConfigMgr) Configuration Item/Baseline for Detecting Non-Standard Local Administrators
 
 This Configuration Item (CI) is written in PowerShell. It loops through "Local Adminstrators" group to find any user account added to this group besides standard "Administrator". Code is written with localized versions of Windows in mind. This CI can be added to dedicated Configuration Baseline (CB) or be a part of bigger CB.
 
